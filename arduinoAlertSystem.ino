@@ -25,7 +25,7 @@ const String DEVICE = "YOUR DEVICE's ID_DEVELOPER HERE"; // Replace with the id_
 // Newer Ethernet shields have a MAC address printed on a sticker on the shield
 byte mac[] = {  0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 IPAddress ip(192,168,1,27);       // Your IP Address
-IPAddress server(82,223,244,60);  // api.carriots.com IP Address
+IPAddress server(51,137,97,16);  // api.carriots.com IP Address
 
 EthernetClient client; // Initialize the library instance
 
